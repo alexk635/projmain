@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #1a1a1a;
+    color: white;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("img/ChatGPT\ Image\ 28\ мая\ 2026\ г.\,\ 17_49_41.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background: #111;
+    border-bottom: 1px solid #2c2c2c;
+    padding: 18px 0;
+}
+
+.header-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo span {
+    color: #ff6a00;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.2s;
+}
+
+.menu a:hover {
+    color: #ff6a00;
+}
+
+
+.about {
+    padding: 50px 0;
+}
+
+.about h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 34px;
+}
+
+.about p {
+    color: #d0d0d0;
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 30px auto 0;
+    border-radius: 10px;
+}
+
+
+
+.rules {
+    padding: 20px 0 50px;
+}
+
+.rules h2,
+.players h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 28px;
+}
+
+.rules-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.rule {
+    background: #242424;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 220px;
+}
+
+.rule h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.rule p {
+    color: #cfcfcf;
+    line-height: 1.5;
+}
+
+
+.players {
+    padding-bottom: 60px;
+}
+
+.players-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.playerInf {
+    background: #242424;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.playerInf h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.playerInf p {
+    color: #cfcfcf;
+    line-height: 1.5;
+}
+
+
+.quiz{
+    text-align: center;
+}
+
+.quiz button {
+    background: #ff6a00;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.quiz button:hover{
+    opacity: 0.9;
+}
+
+#quizBlock {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer{
+    background: #111;
+    border-top: 1px solid #2c2c2c;
+    padding: 25px 0;
+    text-align: center;
+    color: #bdbdbd;
+}
